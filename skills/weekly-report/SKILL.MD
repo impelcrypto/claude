@@ -13,7 +13,11 @@ When asked to generate a weekly report, follow these steps:
    - Feature importance
    - Project priority
 
-4. Generate report in this format in simple English:
+4. Generate report in this format in simple English
+5. Save the report to `./report/weekly-report-YYYY-MM-DD.md` (using today's date, e.g., `weekly-report-2026-02-27.md`)
+   - Create the `./report` directory if it doesn't exist
+
+## Report Format:
 
 **Top 3 Things:**
 
