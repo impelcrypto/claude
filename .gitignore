@@ -1,0 +1,20 @@
+# Ignore everything
+*
+
+# But track these files/folders
+!.gitignore
+!README.md
+!settings.json
+
+# Track directories (need to unignore directory first, then contents)
+!assets/
+!assets/**
+!scripts/
+!scripts/**
+!skills/
+!skills/**
+
+# Still ignore audio files in assets (copyright concerns)
+assets/*.mp3
+assets/*.m4a
+assets/*.wav
